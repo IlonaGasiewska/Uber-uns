@@ -1,0 +1,152 @@
+body{
+    min-width: 320px;
+    max-width: 1400px;
+    text-align: justify;
+}
+
+/**************************************** NAVBAR ****************************************/
+nav{
+    box-shadow: 2px 2px 2px grey;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.active{
+    text-decoration:underline;
+}
+
+/**************************************** NAVIGATION ****************************************/
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navigation-item{
+    text-decoration: none;
+    color: darkblue;
+}
+
+.navigation-current-location-item{
+    font-weight: 700;
+}
+
+/**************************************** BANNER ****************************************/
+.banner{
+    width: 100%;
+}
+/**************************************** CONTENT  ****************************************/
+strong{
+    font-size: 1.1rem;
+}
+
+content {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.team-photo-1 {
+    margin-top: 10%;
+    width: 85%;
+}
+
+.team-photo-2 {
+    float: right;
+    position: relative;
+    margin-top: -30%;
+    z-index: 2;
+    width: 60%;
+}
+
+.truck-photo{
+    width: 100%;
+    height: 75%;
+}
+
+.container-custom{
+    max-width: 93%;
+}
+
+/**************************************** CAROUSEL ****************************************/
+
+.carousel-item{
+    width: 75%;
+    margin: auto;
+    float: none;
+}
+
+.carousel-photo {
+    margin: 1%;
+    height: 95%;
+    width: 100%;
+    padding: 0%;
+}
+
+i{
+    color:darkblue;
+}
+
+.carousel-indicators{
+    margin-top: 3%;
+    position: static;
+}
+
+
+.dot{
+    background-color: grey;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    margin: auto 1%;
+    cursor: pointer;
+}
+
+.active.dot{
+    background-color: darkblue;
+}
+
+/**************************************** POPUP  ****************************************/
+.popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0, 0.7);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    max-width: 1440px;
+    min-width: 320px;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-photo{
+    max-width: 80%;
+    max-height: 80%;
+}
+
+/**************************************** MEDIA  ****************************************/
+
+@media screen and (max-width: 991px) {
+    .content{
+        width: 95%;
+        margin: 2% auto auto auto;
+    }
+
+    .image1 {
+        width: 100%;
+        height: 50%;
+        margin-top: 7%;
+    }
+
+    .container-custom{
+        min-width: 100%
+    }
+}
+
